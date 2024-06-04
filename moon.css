@@ -1,0 +1,193 @@
+body {
+	background: linear-gradient(to bottom ,#f6b5db ,rgb(246, 239, 195));
+	
+	color: #666666;
+	font-family: Arial, Helvetica, Sans-serif;
+
+
+}
+
+header {
+	background-image: url('colores.jpg.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+	line-height: 400%;
+	text-indent: 1em;
+	background-size: cover;
+	text-align: center;
+
+	color: #080808;
+}
+
+nav {
+	
+	background-color: #daa2a2;
+	font-weight: bold;
+	
+	
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	
+}
+
+ 
+p {
+	color: #3b3417;
+}
+
+h2 {
+	color: #089bf080;
+
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+ul {
+	color: #3b3417;
+}
+
+
+
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+
+footer {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 20px;
+	background-color: #fff;
+
+	
+}
+.sidebar {
+	float: left;
+	width: 25%;
+    padding: 20px;
+	background-color: #f3f3f3;
+}
+
+main {
+	float: right;
+	width: 70%;
+    padding: 20px;
+}
+
+.logo {
+	
+	width: 50%; /* Ajusta el ancho al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+
+
+
+.info{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.product-image {
+    width: 100px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f6b5db;
+    color: white;
+    font-weight: bold;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+    background-color: #ddd;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 2s, color 2s;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
